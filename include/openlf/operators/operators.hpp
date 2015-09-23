@@ -96,6 +96,78 @@ namespace openlf {
   
   
   OPENLF_OP_CLASS_HEADER(OP_Test, 1, 1, 2, 2)
+
+//TODO
+  /*! \brief Simple vigra based laplacian of gaussian operator
+   * 
+   * Dimension separated vigra based gaussian smoothing operator.
+   * 
+   * \param x blur <float> blur scale in x dimension
+   * \param y blur <float> blur scale in y dimension
+   */
+  OPENLF_OP_CLASS_HEADER(OP_laplacianOfGaussian, 1, 1, 3, 3)
+  //============================================================================
+
+  /*! \brief Simple vigra based non-linear Diffusion operator
+   * 
+   * Dimension separated vigra based gaussian smoothing operator.
+   * 
+   * \param x blur <float> blur scale in x dimension
+   * \param y blur <float> blur scale in y dimension
+   */
+  //OPENLF_OP_CLASS_HEADER(OP_nonlinearDiffusion, 1, 1, 3, 3)
+  //============================================================================
+
+  /*! \brief Simple vigra based edge detection with thinning operator according to Canny 
+   * 
+   * Dimension separated vigra based gaussian smoothing operator.
+   * 
+   * \param x blur <float> blur scale in x dimension
+   * \param y blur <float> blur scale in y dimension
+   */
+  //OPENLF_OP_CLASS_HEADER(OP_cannyEdgeImageWithThinning, 1, 1, 3, 3)
+  //============================================================================
+
+  /*! \brief Simple vigra based corner response function operator according to Harris 
+   * 
+   * Dimension separated vigra based gaussian smoothing operator.
+   * 
+   * \param x blur <float> blur scale in x dimension
+   * \param y blur <float> blur scale in y dimension
+   */
+  //OPENLF_OP_CLASS_HEADER(OP_cornerResponseFunction, 1, 1, 3, 3)
+  //============================================================================
+
+  /*! \brief Simple vigra based corner response function operator according to Foerstner
+   * 
+   * Dimension separated vigra based gaussian smoothing operator.
+   * 
+   * \param x blur <float> blur scale in x dimension
+   * \param y blur <float> blur scale in y dimension
+   */
+  //OPENLF_OP_CLASS_HEADER(OP_foerstnerCornerDetector, 1, 1, 3, 3)
+  //============================================================================
+
+  /*! \brief Simple vigra based corner response function operator according to Beaudet
+   * 
+   * Dimension separated vigra based gaussian smoothing operator.
+   * 
+   * \param x blur <float> blur scale in x dimension
+   * \param y blur <float> blur scale in y dimension
+   */
+  //OPENLF_OP_CLASS_HEADER(OP_beaudetCornerDetector, 1, 1, 3, 3)
+  //============================================================================
+
+  /*! \brief Simple vigra based corner response function operator according to Rohr
+   * 
+   * Dimension separated vigra based gaussian smoothing operator.
+   * 
+   * \param x blur <float> blur scale in x dimension
+   * \param y blur <float> blur scale in y dimension
+   */
+  //OPENLF_OP_CLASS_HEADER(OP_rohrCornerDetector, 1, 1, 3, 3)
+  //============================================================================
+
   
 }} //namespace openlf::components
 
