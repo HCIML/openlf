@@ -1,2 +1,5 @@
-add_library(openlf_operators SHARED op_test.cpp  op_vigragauss.cpp op_vigragradientmagnitude.cpp op_scharr_x.cpp op_scharr_y.cpp op_laplacianOfGaussian.cpp)
+
+add_library(openlf_operators SHARED op_test.cpp  op_vigragauss.cpp op_vigragradientmagnitude.cpp op_scharr_x.cpp op_scharr_y.cpp op_tensor2x2.cpp op_scharr.cpp op_tensor2orientation.cpp op_laplacianOfGaussian.cpp)
 target_link_libraries(openlf_operators clif cliini clif_vigra DSPatch ${Boost_LIBRARIES} ${OpenCV_LIBRARIES})
+
+
